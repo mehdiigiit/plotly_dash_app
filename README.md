@@ -6,6 +6,8 @@ This Python code creates a Web app using Plotly Dash. It provides several visual
 2. Categorizing the subnets into groups, each representing a particular sub-community or network.
 3. The external entities involved with connections from/to the campus network. 
 
+There is short video demoing the app, available to watch at: https://pages.cpsc.ucalgary.ca/~mehdi.karamollahi/Presentation_Dash.mp4
+
 ## Sections
 
 The app consists of 8 sections. Each section requires a specific input file (described below) and provides one or a set of specific visualization(s). The sections are as following:
@@ -274,4 +276,3 @@ The following explains the input files:
 10. TargetPorts
 	- number of distinct target ports in incoming connections from each organization to a particular group in a particular week.
 
-## Customization
