@@ -1,6 +1,14 @@
 # Plotly Dash App for Analysis of Traffic on an Enterprise Network
 
-This Python code creates a Web app using Plotly Dash. It provides several visualizations to analyze traffic on an enterprise network. The purpose of this analysis is to understand the changes in internal subnets of the network over time. It is currently configured for the University of Calgary's campus network traffic. But it can be adjusted for other enterprise networks. The analysis consists of three parts:
+This Python code creates a Web app using Plotly Dash. 
+
+The requirements are stored in the "requirements.txt". Use the command below to install all requirements:
+
+`pip install -r requirements.txt`
+
+## Overview
+
+This app provides several visualizations to analyze traffic on an enterprise network. The purpose of this analysis is to understand the changes in internal subnets of the network over time. It is currently configured for the University of Calgary's campus network traffic. But it can be adjusted for other enterprise networks. The analysis consists of three parts:
 
 1. Internal subnets of the campus network and the distribution of IPs within each subnet.
 2. Categorizing the subnets into groups, each representing a particular sub-community or network.
