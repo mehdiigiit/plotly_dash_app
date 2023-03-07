@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc  # pip install dash-bootstrap-components
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd  # pip install pandas
-import dash_daq as daq
+import dash_daq as daq # pip install dash_daq
 import math
 
 DEBUG = False
